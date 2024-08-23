@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useRef, useState } from 'react'
-import { json, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import "../styles/admin.css"
 import AdminBanner from '../components/AdminBanner'
 import AdminBannerNumbers from '../components/AdminBannerNumbers'
