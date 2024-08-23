@@ -1,0 +1,14 @@
+.form__wrapper{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto ;
+    background-color: yellow;
+}
+ form {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}

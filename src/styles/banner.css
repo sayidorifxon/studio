@@ -1,0 +1,51 @@
+.banner{
+    background: #f6f6f8;
+    padding: 100px 0 0;
+}
+.banner__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 90px;
+    border-bottom: 1px solid var(--light-grey);
+    
+}
+.banner h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 146%;
+color: var(--dark);
+max-width: 425px;
+width: 100%;
+margin-bottom: 40px;
+}
+.banner p {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 158%;
+color: var(--grey);
+max-width: 489px;
+width: 100%;
+margin-bottom: 30px;
+}
+.number{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    padding: 70px 0;
+    align-items: center;
+}
+.number__card div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.number__card p {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 158%;
+color: var(--grey);
+}

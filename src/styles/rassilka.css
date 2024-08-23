@@ -1,0 +1,58 @@
+.rassilka{
+    padding: 85px 0;
+}
+.rassilka h4{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+color: #000;
+margin-bottom: 20px;
+}
+.rassilka p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 158%;
+text-align: center;
+color: var(--grey);
+margin-bottom: 30px;
+}
+.inputbox{
+background: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 35px;
+}
+.inputbox input{
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-top-left-radius: 30px;
+box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
+    border-bottom-left-radius: 30px;
+    padding-left: 20px;
+}
+.inputbox button{
+    border-radius: 0 30px 30px 0;
+width: 190px;
+height: 45px;
+border: none;
+background: var(--accent);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
+
+color: #fff;
+}
+.rassilka h5{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 13px;
+line-height: 158%;
+text-align: center;
+color: var(--grey);
+}

@@ -1,0 +1,26 @@
+.hero{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 319px 0 335px;
+    background-color: gray;
+}
+.hero h4{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #fff;
+margin-bottom: 20px;
+}
+.hero h1{
+    font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+line-height: 134%;
+text-align: center;
+color: #fff;
+width: 75%;
+margin: 0 auto 50px;
+
+}

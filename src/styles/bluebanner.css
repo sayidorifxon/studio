@@ -1,0 +1,44 @@
+.bluebanner{
+    position: relative;
+    padding: 100px 0 302px;
+    background:  linear-gradient(90deg, #504dc2 0%, #5f12d0 100%);
+}
+.bluebanner__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.bluebanner__wrapper h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 146%;
+color: #fff;
+max-width: 540px;
+width: 100%;
+}
+.bluebanner__grid{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    top: 300px;
+}
+.bluebanner__card img{
+    margin-bottom: 30px;
+}
+.bluebanner__card h4{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+color: #000;
+margin-bottom: 30px;
+}
+.bluebanner__card p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 158%;
+color: var(--grey);
+}

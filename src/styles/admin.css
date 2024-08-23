@@ -1,0 +1,21 @@
+.service_wrapper, .number_wrapper, .wrapper{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+  .hero_form{
+    background-color: blue;
+  }
+
+  .xyz{
+    background-color: blue;
+    height: 600px;
+    overflow-y: scroll;
+  }
+  .service_card_update, .update_number, .update__form, .updateprojects{
+    display: none;
+  }
+  .open{
+    display: block;
+  }

@@ -1,0 +1,52 @@
+.service{
+    padding: 110px 0 105px;
+}
+.service h2{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 146%;
+text-align: center;
+color: var(--dark);
+width: 75%;
+margin:0 auto 50px;
+}
+.service p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 158%;
+text-align: center;
+color: var(--grey);
+width: 75%;
+margin:0 auto 70px;
+}
+.service__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+    margin-bottom: 55px;
+}
+.service__card{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+
+}
+.service__card div{
+    padding-top: 46px;
+}
+.service__card h4{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+color: #000;
+margin-bottom: 20px;
+}
+.service__card h5{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 158%;
+color: var(--grey);
+}

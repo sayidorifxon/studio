@@ -1,0 +1,10 @@
+.users{
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+.users__card{
+    box-shadow: 2px 2px 20px black;
+    padding: 10px;
+}
