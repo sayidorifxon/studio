@@ -5,12 +5,12 @@ function BlueBanner() {
   const [bannerCard , setBannerCard] = useState(null)
   useEffect(()=>{
     async function getBanner (){
-      let fetchBanner = await fetch("https://landing-page-backend-1.onrender.com/all-services")
+      let fetchBanner = await fetch("https://umar-aka-backend.onrender.com/all-services")
       let json = await fetchBanner.json()
       setBanner(json.data[0]);
     }
     async function getBannerCard (){
-      let fetchBannerCard = await fetch("https://landing-page-backend-1.onrender.com/cards")
+      let fetchBannerCard = await fetch("https://umar-aka-backend.onrender.com/cards")
       let json = await fetchBannerCard.json()
       setBannerCard(json.data);
     }

@@ -14,7 +14,7 @@ function AdminProjects() {
             title:main_title.current.value,
             description:main_description.current.value,
         }
-        await fetch(`https://landing-page-backend-1.onrendecardsr.com/all-projects/666fe207faf592070189b5dc5`,{
+        await fetch(`https://umar-aka-backend.onrender.com/all-projects/666fe207faf592070189b5dc5`,{
             method:"PUT",
             headers:{
                 "content-tpe":"application/json"
@@ -37,7 +37,7 @@ function AdminProjects() {
             title:"xyz",
             imageLink:update_image.current.value,
         }
-        await fetch(`https://landing-page-backend-1.onrendecardsr.com/projects/${id}`,{
+        await fetch(`https://umar-aka-backend.onrender.com/projects/${id}`,{
             method:"PUT",
             headers:{
                 "content-type":"application/json"
@@ -53,7 +53,7 @@ function AdminProjects() {
             title:"xyz",
             imageLink:create_image.current.value,
         }
-        await fetch("https://landing-page-backend-1.onrendecardsr.com/projects",{
+        await fetch("https://umar-aka-backend.onrender.com/projects",{
             method:"POST",
             headers:{
                 "content-type":"application/json"

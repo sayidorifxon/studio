@@ -47,7 +47,7 @@ function AdminBannerNumbers() {
             numbers: update_numbers.current.value,
             imageLink: update_image.current.value,
         }
-        await fetch(`https://landing-page-backend-1.onrender.com/about-us_number/${id}`, {
+        await fetch(`https://umar-aka-backend.onrender.com/about-us_number/${id}`, {
             method:"PUT",
             headers:{
                "content-type":"application/json"

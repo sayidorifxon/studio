@@ -4,7 +4,7 @@ function Video() {
     const [video , setVideo] = useState(null)
     useEffect(()=>{
     async function getVideo (){
-      let fetchVideo = await fetch("https://landing-page-backend-1.onrender.com/videos")
+      let fetchVideo = await fetch("https://umar-aka-backend.onrender.com/videos")
       let json = await fetchVideo.json()
       setVideo(json.data[0]);
     }

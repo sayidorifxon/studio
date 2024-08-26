@@ -7,13 +7,13 @@ function Users() {
         getUsers()
     }, [ignored])
     async function getUsers(){
-        let fetchUsers = await fetch("https://landing-page-backend-1.onrender.com/users")
+        let fetchUsers = await fetch("https://umar-aka-backend.onrender.com/users")
         let json = await fetchUsers.json()
         setUsers(json.data)
         forceUpdate()
     }
     function deleteUser(e){
-        fetch(`https://landing-page-backend-1.onrender.com/users/${e.target.id}`, {
+        fetch(`https://umar-aka-backend.onrender.com/users/${e.target.id}`, {
             method:"DELETE"
         })
         forceUpdate()

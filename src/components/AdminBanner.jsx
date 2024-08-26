@@ -13,7 +13,7 @@ function AdminBanner() {
             hyperlink: link.current.value,
             imageLink: image.current.value,
         }
-        await fetch(`https://landing-page-backend-1.onrender.com/about-us/666fdeda8363a53ccab0b940`,{
+        await fetch(`https://umar-aka-backend.onrender.com/about-us/666fdeda8363a53ccab0b940`,{
             method:"PUT",
             headers:{
                 "content-type":"application/json"

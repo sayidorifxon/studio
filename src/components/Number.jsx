@@ -4,7 +4,7 @@ function Number() {
     const [number , setNumber] = useState(null)
     useEffect(()=>{
     async function getNumber (){
-      let fetchNumber = await fetch("https://landing-page-backend-1.onrender.com/about-us_number")
+      let fetchNumber = await fetch("https://umar-aka-backend.onrender.com/about-us_number")
       let json = await fetchNumber.json()
       setNumber(json.data);
     }

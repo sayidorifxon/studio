@@ -5,7 +5,7 @@ function Banner() {
     const [banner , setBanner] = useState(null)
     useEffect(()=>{
     async function getBanner (){
-      let fetchBanner = await fetch("https://landing-page-backend-1.onrender.com/about-us")
+      let fetchBanner = await fetch("https://umar-aka-backend.onrender.com/about-us")
       let json = await fetchBanner.json()
       setBanner(json.data[0]);
     }
@@ -21,7 +21,7 @@ function Banner() {
                 <p>{banner?.description}</p>
                 <a href="#!">Подробнее о компании</a>
             </div>
-            <img width={500} src={`https://landing-page-backend-1.onrender.com${banner?.imageLink}`} alt="" />
+            <img width={500} src={`https://umar-aka-backend.onrender.com${banner?.imageLink}`} alt="" />
         </div>
         <Number/>
       </div>

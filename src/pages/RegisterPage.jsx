@@ -16,7 +16,7 @@ function RegisterPage() {
       password: password__input.current.value,
       imageLink: "https://picsum.photos/100/100",
     }
-    fetch("https://landing-page-backend-1.onrender.com/users/",{
+    fetch("https://umar-aka-backend.onrender.com/users/",{
       method:"POST",
       headers:{
         "Content-Type":"Application/json"

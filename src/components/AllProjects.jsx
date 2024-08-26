@@ -4,7 +4,7 @@ function AllProjects() {
     const [project , setProject] = useState(null)
     useEffect(()=>{
     async function getProject (){
-      let fetchProject = await fetch("https://landing-page-backend-1.onrender.com/all-projects")
+      let fetchProject = await fetch("https://umar-aka-backend.onrender.com/all-projects")
       let json = await fetchProject.json()
       setProject(json.data[0]);
     }

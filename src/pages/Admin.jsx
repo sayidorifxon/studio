@@ -15,7 +15,7 @@ function Admin() {
     getService()
   }, [update])
   async function getUsers(){
-    let fetchUsers = await fetch("https://landing-page-backend-1.onrender.com/users")
+    let fetchUsers = await fetch("https://umar-aka-backend.onrender.com/users")
     let json = await fetchUsers.json()
     setAllUsers(json.data)
   }

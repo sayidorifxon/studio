@@ -26,7 +26,7 @@ function AdminBlueBanner() {
         let ready = {
             title:title.current.value
         }
-        await fetch("https://landing-page-backend-1.onrender.com/all-services/666fe0d4580596affdff3001", {
+        await fetch("https://umar-aka-backend.onrender.com/all-services/666fe0d4580596affdff3001", {
             method:"PUT",
             headers:{
                 "content-type":"application/json"
@@ -46,7 +46,7 @@ function AdminBlueBanner() {
             referal: create_referal.current.value,
             imageLink: create_image.current.value,
         }
-        await fetch(`https://landing-page-backend-1.onrendecardsr.com/cards`, {
+        await fetch(`https://umar-aka-backend.onrender.com/cards`, {
             method:"POST",
             headers:{
                 "content-type":"application/json"
@@ -62,7 +62,7 @@ function AdminBlueBanner() {
             referal: update_referal.current.value,
             imageLink: update_image.current.value,
         }
-        await fetch(`https://landing-page-backend-1.onrendecardsr.com/cards/${id}`, {
+        await fetch(`https://umar-aka-backend.onrender.com/cards/${id}`, {
             method:"PUT",
             headers:{
                 "content-type":"application/json"
@@ -73,7 +73,7 @@ function AdminBlueBanner() {
 
     }
     async function deleteCard(e){
-        await fetch(`https://landing-page-backend-1.onrendecardsr.com/cards/${e.target.id}`,{
+        await fetch(`https://umar-aka-backend.onrender.com/cards/${e.target.id}`,{
             method:"DELETE"
         })
     }

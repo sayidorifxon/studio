@@ -4,7 +4,7 @@ function Hero() {
   const [hero , setHero] = useState(null)
   useEffect(()=>{
     async function getHero (){
-      let fetchHero = await fetch("https://landing-page-backend-1.onrender.com/headers")
+      let fetchHero = await fetch("https://umar-aka-backend.onrender.com/headers")
       let json = await fetchHero.json()
       setHero(json.data[0]);
     }

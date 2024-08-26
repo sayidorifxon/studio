@@ -4,7 +4,7 @@ function Service() {
   const [service , setService] = useState(null)
   useEffect(()=>{
     async function getService (){
-      let fetchService = await fetch("https://landing-page-backend-1.onrender.com/services")
+      let fetchService = await fetch("https://umar-aka-backend.onrender.com/services")
       let json = await fetchService.json()
       setService(json.data[0]);
     }
@@ -20,7 +20,7 @@ function Service() {
             {service?.content_ref_id?.map((item)=>{
                 return(
                     <div className="service__card" key={item._id}>
-                    <img src={`https://landing-page-backend-1.onrender.com${item?.imageLink}`} alt="" />
+                    <img src={`https://umar-aka-backend.onrender.com${item?.imageLink}`} alt="" />
                         <div>
                             <h4>{item?.title}</h4>
                             <h5>{item?.description}</h5>
